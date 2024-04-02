@@ -1,0 +1,41 @@
+<!--**Events in JS**-->
+
+<!--The change in the state of an object is known as Event -->
+<!--Event are fired to notify code of "interesting changes" that may affect code execution-->
+
+<!--Mouse event (click, double click.. etc)-->
+<!--Keyboard Event (Keypress, keyup, keydown)-->
+<!--Form event (submit etc.) -->
+<!-- Print event & many more -->
+
+<!--Event Handling in Js -->
+<!-- node.event = () => {
+    //handle here
+}-->
+
+<!--Event Object -->
+<!--It is a special object that has details about the event -->
+<!--All event handlers have access to the Event object's properties and methods-->
+<!-- node.event = (e) => {
+    //handle here
+}-->
+<!-- e.targer, e.type, e.clientX, e.clinetY-->
+
+<!--Event Listeners-->
+<!-- node.addEventListener (event, callback)-->
+<!-- node.removeEventListener(event,callback)-->
+<!-- note: the callback reference should be same to remove -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EventInJS</title>
+    <link rel="stylesheet" href="08_EventsInJS.css">
+</head>
+<body>
+     <button id="mode"> Change Mode</button>
+     <script src="08_EventsInJS.js"></script>  
+</body>
+</html>
